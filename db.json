@@ -1,0 +1,36 @@
+{
+  "opportunities": [
+    {
+      "id": "1",
+      "title": "Tree Planting Drive",
+      "cause": "Environment",
+      "location": "Nairobi Forest",
+      "time": "Sat, Apr 6",
+      "description": "Join us in planting 1000 trees in Nairobi Forest.",
+      "saved": false,
+      "latitude": -1.3096,
+        "longitude": 36.8219
+    },
+    {
+      "id": "2",
+      "title": "Youth Coding Workshop",
+      "cause": "Education",
+      "location": "Mombasa Youth Center",
+      "time": "Mon-Fri, 4PM",
+      "description": "Teach basic coding skills to high school students.",
+      "saved": true,
+        "latitude": -4.0435,
+        "longitude": 39.6714
+
+    },
+    {
+      "id": "0959",
+      "title": "cleaning the streets",
+      "cause": "environment",
+      "location": "Kibera",
+      "time": "Mon-Fri,5pm",
+      "description": "reduce the trash on the streets",
+      "saved": false
+    }
+  ]
+}

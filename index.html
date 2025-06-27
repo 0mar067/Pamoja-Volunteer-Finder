@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pamoja Volunteer Finder</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header>
+    <h1> Pamoja Volunteer Finder</h1>
+    <p>Find local volunteer opportunities in Kenya</p>
+  </header>
+
+  <main>
+    <section id="filters">
+      <h2> Find Opportunities</h2>
+      <!-- Filter controls go here -->
+    </section>
+
+    <section id="filters">
+  <h2>Find Opportunities</h2>
+  
+  <div class="filter-group">
+    <label for="cause-filter">Filter by Cause:</label>
+    <select id="cause-filter">
+      <option value="">All Causes</option>
+      <option value="Education">Education</option>
+      <option value="Environment">Environment</option>
+      <option value="Health">Health</option>
+      <option value="Animals">Animals</option>
+    </select>
+  </div>
+
+  <div class="filter-group">
+    <label for="location-filter">Filter by Location:</label>
+    <select id="location-filter">
+      <option value="">All Locations</option>
+      <option value="Nairobi">Nairobi</option>
+      <option value="Mombasa">Mombasa</option>
+      <option value="Kisumu">Kisumu</option>
+      <option value="Nakuru">Nakuru</option>
+    </select>
+  </div>
+
+  <div class="filter-group">
+    <label for="saved-filter">Show:</label>
+    <select id="saved-filter">
+      <option value="">All</option>
+      <option value="saved">Saved Only</option>
+    </select>
+  </div>
+</section>
+
+    <section id="opportunities">
+      <h2> Available Opportunities</h2>
+      <div id="opportunity-list">
+        <!-- Volunteer cards will appear here -->
+      </div>
+    </section>
+
+    <section id="add-opportunity">
+      <h2> Add New Opportunity</h2>
+      <form id="opportunity-form">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required /><br>
+
+        <label for="cause">Cause:</label>
+        <input type="text" id="cause" name="cause" required /><br>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required /><br>
+
+        <label for="time">Time:</label>
+        <input type="text" id="time" name="time" required /><br>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea><br>
+
+        <button type="submit">Add Opportunity</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created with love for Kenya communities</p>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
